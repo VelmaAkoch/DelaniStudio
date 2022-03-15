@@ -1,0 +1,100 @@
+.container img{
+    height: 400px;
+    width: 100%;
+}
+
+.logo img{
+    top: ;
+
+}
+
+.mytitle{
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    font-size: 50;
+}
+
+.mytitle h2{
+    font-size: 30px;
+    font-weight:400;
+    color: white;
+    top: 29%;
+}
+
+.mytitle h3{
+    font-size: 30px;
+    color: white;
+    right: 40;
+    font-weight: 400;
+    position: relative;
+}
+
+.mytitle p{
+    font-size: 3px;
+    font-weight: 700;
+    top: 30%;
+    color: white;
+
+}
+
+
+/* .container{
+    background-image: url("./images/h_img.jpg");
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    background-color: #cccc;
+
+} */
+
+/* .container h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30vh;
+
+} */
+
+/* .container h3{
+    font-size: 25px;
+    font-weight: bold;
+
+} */
+
+/* .container p{
+    font-size: 15px;
+    font-weight: 700;
+
+
+} */
+
+.aboutus p{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container{
+    background: url("../DelaniStudio/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+.service p{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.whatwedo h6{
+ 
+}
+
+
+
+
+
