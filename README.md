@@ -4,6 +4,7 @@ By Velma Mukanga
 This is a website of Delani S#tudio,it it talk about them,their services,designs,and wher to find them on social media
 ## Live Link
 Here is a live link to the website
+https://velmaakoch.github.io/DelaniStudio/
 ## Installation
 Open the browser
 Click the live link in the About section or copy it and paste it on your browser.
