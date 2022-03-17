@@ -1,18 +1,16 @@
-.container img{
-    height: 400px;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo img{
-    top: ;
-
-}
-
-.mytitle{
-    position: absolute;
-    top: 29%;
-    left: 50%;
-    font-size: 50;
+.card{
+    height: 100vh;
+    background-image: url("./images/h_img.jpg");
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 400;
 }
 
 .mytitle h2{
@@ -31,70 +29,205 @@
 }
 
 .mytitle p{
-    font-size: 3px;
+    font-size: 10px;
     font-weight: 700;
     top: 30%;
     color: white;
 
 }
 
-
-/* .container{
-    background-image: url("./images/h_img.jpg");
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
+#mouse{
     text-align: center;
-    background-color: #cccc;
+    padding: top 200px; ;
 
-} */
-
-/* .container h2{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 30vh;
-
-} */
-
-/* .container h3{
-    font-size: 25px;
-    font-weight: bold;
-
-} */
-
-/* .container p{
-    font-size: 15px;
-    font-weight: 700;
+}
 
 
-} */
-
-.aboutus p{
+.aboutus{
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+    padding-top: 20px;
 }
 
-.container{
-    background: url("../DelaniStudio/assets/backgrounds/s_image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
-    text-align: center;
-}
 
-.service p{
+.service {
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+    background-image: url("./images/s_image.jpg");
+    height: 300px;
+    color: white;
+    padding-top: 80px;
 }
 
-.whatwedo h6{
+h6{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.whatwedo{
+    text-align: center;
+    justify-content:space-around;
+    display: flex;
  
 }
 
+#DESIGN{
+    padding: 30,100,30,100;
+}
+
+.potfolio1,.potfolio2{
+    /* margin-top: 3%;
+    margin-left: 2%; */
+
+}
+img{
+    margin: 10px;
+}
 
 
+.contactus{
+   background-image: url("./images/c_image.jpg");
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+   display: block;
 
+}
+
+.overlay{
+    height:100vh;
+    width: 100%;
+    background-color: rgb(100, 94, 90, 0.4);
+    display: block;
+}
+
+.overlay h6{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mce-EMAIL {
+    border: 1px solid white;
+    margin-top: -2%;
+    margin-left: -4%;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+#mce-FNAME {
+    border: 1px solid white;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 25%;
+
+}
+
+#mce-MMERGE7 {
+    width: 63%;
+    margin-left: 15%;
+    border: 1px solid white;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.message {
+    margin-top: -1%;
+    margin-left: 15%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    height: 50px;
+    margin-right:25%;
+    margin-left: 25%;
+    min-height: 45px;
+    margin-bottom: 5%;
+
+}
+
+.footer img {
+    height: 2.5rem !important;
+    width: 35px;
+    
+}
+
+.media {
+    text-align: center;
+    color: #000000;
+}
+
+.media h4 {
+    font-size: 17px;
+    font-weight: bold;
+    bottom: 98%;
+}
+
+.clear{
+    text-align: center;
+    margin-top: 2%;
+}
+.design2, .development2, .product2{
+    display: none;
+}
+
+.myPotfolio img{
+    height: 200px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.8;
+    /* padding: 80px; */
+}
+
+.myPotfolio{
+    flex-wrap: wrap;
+}
+
+.imagep{
+    position: relative;
+}
+
+.imagep img:hover{
+    opacity: o.2;
+}
+
+.imagep:hover .works{
+    opacity: 1;
+}
+
+.works{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transition: 0.9s ease;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.works p{
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+}
 
